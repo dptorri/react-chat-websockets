@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/node": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "babel-watch": "^7.3.0"
+    "babel-watch": "^7.3.0",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  },
+  "scripts": {
+    "watch": "babel-watch src/index.js"
   }
 }

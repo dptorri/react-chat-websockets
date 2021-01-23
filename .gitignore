@@ -1,2 +1,4 @@
 node_modules
 chat-app/.cache
+chat-app/dist
+dist
